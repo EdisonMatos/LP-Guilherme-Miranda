@@ -67,10 +67,7 @@ export const infos = {
   },
   endereco: (
     <div>
-      <p>Endereço:</p>
-      <p>Alameda Santos 2159 - 15º Andar</p>
-      <p>São Paulo - SP</p>
-      <p>CEP: 01419-100</p>
+      <p>Atendimento na região da Paulista e Santo Amaro</p>
     </div>
   ),
   expediente: (
@@ -529,7 +526,7 @@ const content = {
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
-      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      footerDivulgacaoText: "",
       midSectionName: "Até mais",
       footerText:
         "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
@@ -870,7 +867,7 @@ const content = {
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,
       footerNavegacaoText: "NAVEGAÇÃO",
-      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      footerDivulgacaoText: "",
     },
   },
 };
