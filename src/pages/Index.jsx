@@ -39,8 +39,8 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
-      {/* <Features modal={false} /> */}
-      <FeaturesExtended />
+      <Features paragraphsModal={true} modal={false} />
+      {/* <FeaturesExtended /> */}
       {/* <FeaturesResumed /> */}
       {/* <FeaturesWithIcons /> */}
       {/* <FormAndLocation/> */}

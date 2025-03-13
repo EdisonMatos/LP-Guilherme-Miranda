@@ -105,7 +105,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CRIMINALISTA EM SÃO PAULO - SP",
+      miniTag: "ADVOGADO EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
           Proteção
@@ -113,7 +113,7 @@ const content = {
         </h1>
       ),
       subtitle:
-        "Com experiência e competência, o Dr. Guilherme Miranda é a escolha certa para sua defesa criminal de excelência.",
+        "Com experiência e competência, o Dr. Guilherme Miranda é a escolha certa para sua defesa de excelência.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -161,29 +161,29 @@ const content = {
       },
     },
     features: {
-      miniTag: "DIREITO PENAL",
-      title: "Defesa criminal especializada",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Defesa especializada à todo momento",
       subtitle: "Estratégia e dedicação em todas as fases do processo.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Fase investigativa",
+        title: "Direito de Família",
         subtitle: (
           <ul>
-            <li>- Requerimento de Instauração de Inquérito Policial;</li>
             <li>
-              - Acompanhamento de Inquérito Policial e Operações no Âmbito
-              Estadual e Federal;
+              - Divórcio: Orientação e acompanhamento em processos de divórcio,
+              seja consensual ou litigioso.
             </li>
-            <li>- Intimação Policial - Levantamento e Ciência;</li>
+            <br />
             <li>
-              - Depoimento / Esclarecimentos - Orientação, Preparação e
-              Acompanhamento;
+              - Guarda de Filhos e Visitação: Definição de guarda,
+              regulamentação de visitas e direitos dos pais.
             </li>
+            <br />
             <li>
-              - Habeas Corpus (preventivo / contra ato ilegal / configurar
-              constrangimento ilegal).
+              - Pensão Alimentícia: Estabelecimento de valores e revisões de
+              pensão alimentícia para filhos e ex-cônjuges.
             </li>
           </ul>
         ),
@@ -218,21 +218,28 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Fase pré-processual",
+        title: "Direito Contratual",
         subtitle: (
           <ul>
-            <li>- Pedido de Revogação da Prisão Preventiva;</li>
-            <li>- Audiência de Custódia;</li>
             <li>
-              - ANPP - Acordo de Não Persecução Penal (Pena mínima até 4 anos);
+              - Elaboração e Análise de Contratos: Redação e revisão de
+              contratos de prestação de serviços, compra e venda, locação e
+              outros acordos.{" "}
             </li>
+            <br />
             <li>
-              - Transação Penal e Suspensão Condicional do Processo (Lei 9.099);
+              - Consultoria para Negócios: Orientação jurídica para a
+              formalização de parcerias e acordos comerciais.
             </li>
-            <li>- Menor Potencial Ofensivo;</li>
+            <br />
             <li>
-              - Habeas Corpus (preventivo / contra ato ilegal / configurar
-              constrangimento ilegal).
+              - Rescisões Contratuais: Assessoria jurídica em rescisões e
+              resoluções de contratos.
+            </li>
+            <br />
+            <li>
+              - Mediação de Conflitos: Solução de disputas contratuais por meio
+              de mediação e negociações.
             </li>
           </ul>
         ),
@@ -269,16 +276,30 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Fase processual",
+        title: "Direito Trabalhista",
         subtitle: (
           <ul>
-            <li>- Pedido de Revogação da Prisão Preventiva;</li>
-            <li>- Denúncia / Resposta à Acusação;</li>
-            <li>- Audiência de Instrução e Julgamento;</li>
-            <li>- Alegações Finais;</li>
-            <li>- Sentença;</li>
             <li>
-              - Habeas Corpus (contra ato ilegal e/ou constrangimento ilegal).
+              - Consultoria para Empregados e Empregadores: Orientação sobre
+              direitos trabalhistas, contratos de trabalho e obrigações de ambas
+              as partes.{" "}
+            </li>
+            <br />
+            <li>
+              - Ações Trabalhistas: Representação em processos relacionados a
+              verbas rescisórias, horas extras, férias, entre outros direitos.
+            </li>
+            <br />
+            <li>
+              - Assédio e Discriminação no Trabalho: Assistência jurídica em
+              casos de assédio moral, sexual e discriminação no ambiente de
+              trabalho.{" "}
+            </li>
+            <br />
+            <li>
+              - Acordos e Negociação de Cláusulas: Auxílio em acordos coletivos
+              e individuais, garantindo os direitos dos trabalhadores ou
+              empregadores.
             </li>
           </ul>
         ),
@@ -315,16 +336,41 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title:
-          "Apelação em Tribunais de Justiça e Tribunais Regionais Federais",
+        title: "Direito Penal",
         subtitle: (
           <ul>
-            <li>- Entrega de Memoriais e Sustentação Oral;</li>
             <li>
-              - Recurso Especial perante o STJ (Superior Tribunal de Justiça);
+              - Defesa Criminal: Atuação na defesa de clientes em processos
+              criminais, garantindo o devido processo legal e a ampla defesa.
             </li>
+            <br />
             <li>
-              - Recurso Extraordinário perante o STF (Supremo Tribunal Federal).
+              - Crimes Contra o Patrimônio: Assessoria jurídica em casos de
+              furto, roubo, estelionato, dano e outros crimes patrimoniais.
+            </li>
+            <br />
+            <li>
+              - Crimes Contra a Pessoa: Defesa e acompanhamento em casos de
+              lesão corporal, homicídio, ameaças e outros crimes contra a
+              integridade física e moral.
+            </li>
+            <br />
+            <li>
+              - Crimes Empresariais e Econômicos: Atuação em casos de fraudes,
+              lavagem de dinheiro, crimes contra o sistema financeiro e outras
+              infrações no âmbito empresarial.
+            </li>
+            <br />
+            <li>
+              - Atuação em Delegacias: Assistência jurídica desde o inquérito
+              policial, acompanhando depoimentos e garantindo os direitos do
+              cliente.
+            </li>
+            <br />
+            <li>
+              - Medidas Cautelares e Habeas Corpus: Pedido de liberdade
+              provisória, relaxamento de prisão e outras medidas para garantir a
+              proteção dos direitos do acusado.
             </li>
           </ul>
         ),
@@ -387,7 +433,7 @@ const content = {
       miniTag: "QUEM É O DR GUILHERME MIRANDA",
       title: "Minha trajetória",
       subtitle:
-        "Dr. Guilherme Miranda é um advogado criminalista com uma carreira dedicada à busca por justiça e equidade.",
+        "Dr. Guilherme Miranda é um advogado com uma carreira dedicada à busca por justiça e equidade. ",
       paragraph: (
         <div>
           Desde o início de sua trajetória, ele compreendeu que o direito penal
