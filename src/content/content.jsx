@@ -328,7 +328,7 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Penal:",
+        title: "Direito Penal",
         subtitle: (
           <ul>
             <li>
