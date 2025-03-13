@@ -420,7 +420,7 @@ const content = {
       miniTag: "QUEM É O DR GUILHERME MIRANDA",
       title: "Minha trajetória",
       subtitle:
-        "Dr. Guilherme Miranda é um advogado criminalista com uma carreira dedicada à busca por justiça e equidade.",
+        "Dr. Guilherme Miranda é um advogado com uma carreira dedicada à busca por justiça e equidade. ",
       paragraph: (
         <div>
           Desde o início de sua trajetória, ele compreendeu que o direito penal
