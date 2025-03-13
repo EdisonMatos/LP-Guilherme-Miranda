@@ -271,7 +271,7 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Fase processual",
+        title: "Direito Trabalhista",
         subtitle: (
           <ul>
             <li>
