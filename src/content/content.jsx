@@ -105,7 +105,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CRIMINALISTA EM SÃO PAULO - SP",
+      miniTag: "ADVOGADO EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
           Proteção
@@ -113,7 +113,7 @@ const content = {
         </h1>
       ),
       subtitle:
-        "Com experiência e competência, o Dr. Guilherme Miranda é a escolha certa para sua defesa criminal de excelência.",
+        "Com experiência e competência, o Dr. Guilherme Miranda é a escolha certa para sua defesa de excelência.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
