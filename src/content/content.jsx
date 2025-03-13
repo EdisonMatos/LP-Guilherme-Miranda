@@ -175,10 +175,12 @@ const content = {
               - Divórcio: Orientação e acompanhamento em processos de divórcio,
               seja consensual ou litigioso.
             </li>
+            <br />
             <li>
               - Guarda de Filhos e Visitação: Definição de guarda,
               regulamentação de visitas e direitos dos pais.
             </li>
+            <br />
             <li>
               - Pensão Alimentícia: Estabelecimento de valores e revisões de
               pensão alimentícia para filhos e ex-cônjuges.
@@ -224,14 +226,17 @@ const content = {
               contratos de prestação de serviços, compra e venda, locação e
               outros acordos.{" "}
             </li>
+            <br />
             <li>
               - Consultoria para Negócios: Orientação jurídica para a
               formalização de parcerias e acordos comerciais.
             </li>
+            <br />
             <li>
               - Rescisões Contratuais: Assessoria jurídica em rescisões e
               resoluções de contratos.
             </li>
+            <br />
             <li>
               - Mediação de Conflitos: Solução de disputas contratuais por meio
               de mediação e negociações.
@@ -279,15 +284,18 @@ const content = {
               direitos trabalhistas, contratos de trabalho e obrigações de ambas
               as partes.{" "}
             </li>
+            <br />
             <li>
               - Ações Trabalhistas: Representação em processos relacionados a
               verbas rescisórias, horas extras, férias, entre outros direitos.
             </li>
+            <br />
             <li>
               - Assédio e Discriminação no Trabalho: Assistência jurídica em
               casos de assédio moral, sexual e discriminação no ambiente de
               trabalho.{" "}
             </li>
+            <br />
             <li>
               - Acordos e Negociação de Cláusulas: Auxílio em acordos coletivos
               e individuais, garantindo os direitos dos trabalhadores ou
@@ -335,25 +343,30 @@ const content = {
               - Defesa Criminal: Atuação na defesa de clientes em processos
               criminais, garantindo o devido processo legal e a ampla defesa.
             </li>
+            <br />
             <li>
               - Crimes Contra o Patrimônio: Assessoria jurídica em casos de
               furto, roubo, estelionato, dano e outros crimes patrimoniais.
             </li>
+            <br />
             <li>
               - Crimes Contra a Pessoa: Defesa e acompanhamento em casos de
               lesão corporal, homicídio, ameaças e outros crimes contra a
               integridade física e moral.
             </li>
+            <br />
             <li>
               - Crimes Empresariais e Econômicos: Atuação em casos de fraudes,
               lavagem de dinheiro, crimes contra o sistema financeiro e outras
               infrações no âmbito empresarial.
             </li>
+            <br />
             <li>
               - Atuação em Delegacias: Assistência jurídica desde o inquérito
               policial, acompanhando depoimentos e garantindo os direitos do
               cliente.
             </li>
+            <br />
             <li>
               - Medidas Cautelares e Habeas Corpus: Pedido de liberdade
               provisória, relaxamento de prisão e outras medidas para garantir a

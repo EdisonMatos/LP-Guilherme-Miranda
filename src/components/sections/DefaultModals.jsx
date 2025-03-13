@@ -15,7 +15,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function DefaultModals({ modal="true" }) {
+export default function DefaultModals({ modal = "true" }) {
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -50,7 +50,8 @@ export default function DefaultModals({ modal="true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card1.icon}
                   title={content.texts.features.card1.title}
-                  paragraph="Saber mais"
+                  paragraph="- Divórcio: Orientação e acompanhamento em processos de divórcio,
+              seja consensual ou litigioso..."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
@@ -104,7 +105,9 @@ export default function DefaultModals({ modal="true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card2.icon}
                   title={content.texts.features.card2.title}
-                  paragraph="Saber mais"
+                  paragraph="- Elaboração e Análise de Contratos: Redação e revisão de
+              contratos de prestação de serviços, compra e venda, locação e
+              outros acordos..."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
@@ -158,7 +161,9 @@ export default function DefaultModals({ modal="true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
-                  paragraph="Saber mais"
+                  paragraph="- Consultoria para Empregados e Empregadores: Orientação sobre
+              direitos trabalhistas, contratos de trabalho e obrigações de ambas
+              as partes..."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
@@ -212,7 +217,8 @@ export default function DefaultModals({ modal="true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card4.icon}
                   title={content.texts.features.card4.title}
-                  paragraph="Saber mais "
+                  paragraph=" - Defesa Criminal: Atuação na defesa de clientes em processos
+              criminais, garantindo o devido processo legal e a ampla defesa... "
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
