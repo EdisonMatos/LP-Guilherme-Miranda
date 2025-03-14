@@ -436,44 +436,59 @@ const content = {
         "Dr. Guilherme Miranda é um advogado com uma carreira dedicada à busca por justiça e equidade. ",
       paragraph: (
         <div>
-          Desde o início de sua trajetória, ele compreendeu que o direito penal
-          não se resume a processos e julgamentos, mas envolve profundamente as
-          vidas e histórias das pessoas que defende.
+          Desde o início da minha carreira, percebi que a advocacia vai além dos
+          processos e julgamentos.
           <br />
-          Essa visão humanizada tem sido a base de seu trabalho, guiando cada
-          decisão e estratégia.
+          Sempre enxerguei a profissão como uma oportunidade de fazer a
+          diferença na vida das pessoas, ajudando-as a superar desafios e
+          proteger seus direitos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Desde o início de sua trajetória, ele compreendeu que o direito penal
-          não se resume a processos e julgamentos, mas envolve profundamente as
-          vidas e histórias das pessoas que defende. Essa visão humanizada tem
-          sido a base de seu trabalho, guiando cada decisão e estratégia.
+          Desde o início da minha carreira, percebi que a advocacia vai além dos
+          processos e julgamentos.
           <br />
           <br />
-          Com uma sólida formação acadêmica em direito penal e uma constante
-          atualização em legislações e jurisprudências, Dr. Guilherme não apenas
-          domina os aspectos técnicos da lei, mas também se empenha em entender
-          as necessidades individuais de seus clientes. Ao longo dos anos, sua
-          experiência prática em casos complexos lhe permitiu desenvolver uma
-          abordagem estratégica e personalizada, garantindo que cada cliente
-          receba uma defesa robusta e eficaz.
+          Sempre enxerguei a profissão como uma oportunidade de fazer a
+          diferença na vida das pessoas, ajudando-as a superar desafios e
+          proteger seus direitos.
           <br />
           <br />
-          Além de sua competência técnica, o Dr. Guilherme acredita firmemente
-          na importância do respeito e da dignidade. Para ele, cada caso é uma
-          oportunidade de fazer a diferença, oferecendo orientação clara,
-          objetiva e um suporte inabalável em momentos de incerteza. Seja na
-          fase investigatória, pré-processual ou processual, seu compromisso é
-          trabalhar incansavelmente para restaurar o equilíbrio e proporcionar
-          justiça.
+          Com uma formação sólida e uma constante atualização nas mais diversas
+          áreas do direito, construí uma trajetória marcada pela minha dedicação
+          e empatia.
           <br />
           <br />
-          Ao escolher o Dr. Guilherme Miranda, os clientes encontram não apenas
-          um advogado, mas um parceiro dedicado que compreende a complexidade de
-          suas situações e luta com determinação por seus direitos e interesses.
+          Já lidei com casos no direito penal, como o de um cliente acusado
+          injustamente, onde não me limitei a uma defesa técnica, mas me envolvi
+          emocionalmente, garantindo que a justiça fosse feita.
+          <br />
+          <br />
+          No direito trabalhista, ajudei uma trabalhadora a reverter uma
+          demissão sem justa causa, conseguindo uma compensação que a fez
+          acreditar novamente em seus direitos.
+          <br />
+          <br />
+          Minha experiência no direito cível me levou a enfrentar disputas
+          contratuais e questões de responsabilidade civil, sempre buscando
+          soluções que respeitassem o equilíbrio entre as partes envolvidas.
+          <br />
+          <br />
+          Já no direito familiar, lidei com casos sensíveis, como disputas de
+          guarda, onde minha prioridade era garantir que os interesses das
+          crianças fossem preservados, sem causar mais trauma para a família.
+          <br />
+          <br />
+          Ao longo da minha carreira, entendi que, independentemente da área,
+          cada cliente merece uma abordagem personalizada, com respeito e
+          dedicação.
+          <br />
+          <br />
+          Acredito que a verdadeira advocacia é aquela que busca a justiça, não
+          apenas nas leis, mas também no impacto que ela tem na vida das
+          pessoas.
           <br />
           <br />
         </p>
