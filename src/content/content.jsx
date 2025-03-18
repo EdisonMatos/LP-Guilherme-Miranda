@@ -167,23 +167,42 @@ const content = {
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
-        img: featuresImg1,
-        title: "Direito de Família",
+        img: featuresImg4,
+        title: "Direito Penal",
         subtitle: (
           <ul>
             <li>
-              - Divórcio: Orientação e acompanhamento em processos de divórcio,
-              seja consensual ou litigioso.
+              - Defesa Criminal: Atuação na defesa de clientes em processos
+              criminais, garantindo o devido processo legal e a ampla defesa.
             </li>
             <br />
             <li>
-              - Guarda de Filhos e Visitação: Definição de guarda,
-              regulamentação de visitas e direitos dos pais.
+              - Crimes Contra o Patrimônio: Assessoria jurídica em casos de
+              furto, roubo, estelionato, dano e outros crimes patrimoniais.
             </li>
             <br />
             <li>
-              - Pensão Alimentícia: Estabelecimento de valores e revisões de
-              pensão alimentícia para filhos e ex-cônjuges.
+              - Crimes Contra a Pessoa: Defesa e acompanhamento em casos de
+              lesão corporal, homicídio, ameaças e outros crimes contra a
+              integridade física e moral.
+            </li>
+            <br />
+            <li>
+              - Crimes Empresariais e Econômicos: Atuação em casos de fraudes,
+              lavagem de dinheiro, crimes contra o sistema financeiro e outras
+              infrações no âmbito empresarial.
+            </li>
+            <br />
+            <li>
+              - Atuação em Delegacias: Assistência jurídica desde o inquérito
+              policial, acompanhando depoimentos e garantindo os direitos do
+              cliente.
+            </li>
+            <br />
+            <li>
+              - Medidas Cautelares e Habeas Corpus: Pedido de liberdade
+              provisória, relaxamento de prisão e outras medidas para garantir a
+              proteção dos direitos do acusado.
             </li>
           </ul>
         ),
@@ -191,11 +210,11 @@ const content = {
           <div>
             A_Definir
             <br />
-            <br />
             A_Definir
+            <br />
           </div>
         ),
-        imgModal: imgFeaturesCardModal1,
+        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -207,10 +226,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-search"
+            class="lucide lucide-landmark"
           >
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
+            <line x1="3" x2="21" y1="22" y2="22" />
+            <line x1="6" x2="6" y1="18" y2="11" />
+            <line x1="10" x2="10" y1="18" y2="11" />
+            <line x1="14" x2="14" y1="18" y2="11" />
+            <line x1="18" x2="18" y1="18" y2="11" />
+            <polygon points="12 2 20 7 4 7" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -335,42 +358,23 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card4: {
-        img: featuresImg4,
-        title: "Direito Penal",
+        img: featuresImg1,
+        title: "Direito de Família",
         subtitle: (
           <ul>
             <li>
-              - Defesa Criminal: Atuação na defesa de clientes em processos
-              criminais, garantindo o devido processo legal e a ampla defesa.
+              - Divórcio: Orientação e acompanhamento em processos de divórcio,
+              seja consensual ou litigioso.
             </li>
             <br />
             <li>
-              - Crimes Contra o Patrimônio: Assessoria jurídica em casos de
-              furto, roubo, estelionato, dano e outros crimes patrimoniais.
+              - Guarda de Filhos e Visitação: Definição de guarda,
+              regulamentação de visitas e direitos dos pais.
             </li>
             <br />
             <li>
-              - Crimes Contra a Pessoa: Defesa e acompanhamento em casos de
-              lesão corporal, homicídio, ameaças e outros crimes contra a
-              integridade física e moral.
-            </li>
-            <br />
-            <li>
-              - Crimes Empresariais e Econômicos: Atuação em casos de fraudes,
-              lavagem de dinheiro, crimes contra o sistema financeiro e outras
-              infrações no âmbito empresarial.
-            </li>
-            <br />
-            <li>
-              - Atuação em Delegacias: Assistência jurídica desde o inquérito
-              policial, acompanhando depoimentos e garantindo os direitos do
-              cliente.
-            </li>
-            <br />
-            <li>
-              - Medidas Cautelares e Habeas Corpus: Pedido de liberdade
-              provisória, relaxamento de prisão e outras medidas para garantir a
-              proteção dos direitos do acusado.
+              - Pensão Alimentícia: Estabelecimento de valores e revisões de
+              pensão alimentícia para filhos e ex-cônjuges.
             </li>
           </ul>
         ),
@@ -378,11 +382,11 @@ const content = {
           <div>
             A_Definir
             <br />
-            A_Definir
             <br />
+            A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
+        imgModal: imgFeaturesCardModal1,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -394,14 +398,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-landmark"
+            class="lucide lucide-search"
           >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
