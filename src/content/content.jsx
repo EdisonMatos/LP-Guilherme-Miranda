@@ -508,9 +508,9 @@ const content = {
         paragraph: (
           <p>
             Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
-            Penal, Processual Penal e temas relacionados à justiça criminal. Não
-            perca a chance de transformar conhecimento em poder para proteger
-            seus direitos.
+            Penal e Processual Penal, com insights também sobre Direito de
+            Família, Trabalhista e Contratual. Não perca a chance de transformar
+            conhecimento em poder para proteger seus direitos.
           </p>
         ),
       },
