@@ -409,6 +409,59 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
+      card5: {
+        img: featuresImg1,
+        title: "Direito Previdenciário",
+        subtitle: (
+          <ul>
+            <li>
+              - Aposentadorias: Orientação e acompanhamento em pedidos de
+              aposentadoria por idade, tempo de contribuição e outras
+              modalidades.
+            </li>
+            <br />
+            <li>
+              - Benefícios por Incapacidade: Atuação em casos de auxílio por
+              incapacidade temporária e aposentadoria por incapacidade
+              permanente.
+            </li>
+            <br />
+            <li>
+              - BPC/LOAS e Outros Benefícios: Análise e acompanhamento de
+              pedidos de benefício assistencial, pensão por morte,
+              auxílio-acidente e demais benefícios previdenciários.
+            </li>
+          </ul>
+        ),
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="lucide lucide-shield-check"
+          >
+            <path d="M20 13c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V5l8-3 8 3v8Z" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
       moreFeatures: {
         card1: {
           ico: "A_Definir",

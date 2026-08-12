@@ -48,6 +48,61 @@ export default function DefaultModals({ modal = "true" }) {
             <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
+                  icon={content.texts.features.card5.icon}
+                  title={content.texts.features.card5.title}
+                  paragraph="- Aposentadorias: Orientação e acompanhamento em pedidos de
+        aposentadoria por idade, tempo de..."
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                />
+                {modal && (
+                  <Button
+                    size="small"
+                    label="Saber Mais"
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card5.title,
+                        content.texts.features.card5.subtitle,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={whatsappContactLink}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                            />
+                          </div>
+                        </>,
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
+              </MotionDivDownToUp>{" "}
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                <IconButtonFeatureCard
                   icon={content.texts.features.card1.icon}
                   title={content.texts.features.card1.title}
                   paragraph="- Defesa Criminal: Atuação na defesa de clientes em processos criminais, garantindo o devido processo legal e a ampla defesa..."
@@ -77,7 +132,7 @@ export default function DefaultModals({ modal = "true" }) {
                               icon={<FaWhatsapp size={24} />}
                             />
                           </div>
-                        </>
+                        </>,
                       )
                     }
                     icon={
@@ -133,7 +188,7 @@ export default function DefaultModals({ modal = "true" }) {
                               icon={<FaWhatsapp size={24} />}
                             />
                           </div>
-                        </>
+                        </>,
                       )
                     }
                     icon={
@@ -189,7 +244,7 @@ export default function DefaultModals({ modal = "true" }) {
                               icon={<FaWhatsapp size={24} />}
                             />
                           </div>
-                        </>
+                        </>,
                       )
                     }
                     icon={
@@ -244,7 +299,7 @@ export default function DefaultModals({ modal = "true" }) {
                               icon={<FaWhatsapp size={24} />}
                             />
                           </div>
-                        </>
+                        </>,
                       )
                     }
                     icon={
